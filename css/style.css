@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: rgb(198, 178, 157);
+    height: 100vh;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(192, 184, 173);
+
+}
+
+.container-main{
+    
+    background-color: rgb( 255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 2rem; 
+    box-shadow: 0 0 1em black;  
+    margin: 1rem; 
+    text-align: center;
+}
+
+
+
+.img{
+    margin: 1rem 0;
+            
+}
+
+img{
+    width: 200px;
+    box-shadow: 0 0 1em black;
+    border-radius: 50%;
+    background-color: rgb(192, 184, 173)
+}
+
+.container-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.container-numbers h1, span, input{
+    margin: 0.6rem 0;
+    font-size: 18px;
+}
+
+.container-numbers h1{
+    font-size: 2rem;
+    
+}
+
+
+
+.container-interval{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container-interval span{
+    margin: 5px;
+}
+
+input{
+    width: 30%;
+    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid;
+    padding: 10px;
+}
+
+button{
+    margin: 0.6rem 0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 1rem;
+    background-color: rgb(192, 184, 173);
+    border: none;
+    font-weight: bold;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+#text-finish{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .container-numbers span, input{
+        margin: 0.6rem 0;
+        font-size: 14px;
+    }
+    
+    .container-numbers h1{
+        font-size: 1.2rem;
+    }
+
+    #text-finish{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+
+
+}

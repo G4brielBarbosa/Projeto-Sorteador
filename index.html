@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="shortcut icon" href="images/coelho.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container-main">
+            <div class="img"><img src="images/kisspng-fictional-character-figurine-lee-sin-interesting-5ab0b1fabe9ac9.8089931715215293387807.png" alt="Foto coelho"></div>
+            <div class="container-numbers">
+                <h1>Sorteador de Números</h1>
+                </div>
+                <span>Quantos números você quer sortear?</span>
+                <input type="number" name="Quantidade de Numeros" id="quantidade">
+                <span>Escolha um intervalo de números</span>
+                <div class="container-interval">
+                    <span>Entre</span>
+                    <input type="number" name="Primeiro valor" id="interval-one">
+                    <span>e</span>
+                    <input type="number" name="Segundo valor" id="interval-two">
+                </div>
+            </div>
+
+            <button onclick="sortear()">Sortear</button>
+            <h1 id="text-finish"></h1>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
